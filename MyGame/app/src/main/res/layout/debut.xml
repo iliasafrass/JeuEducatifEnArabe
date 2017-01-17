@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/jardin2_background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHello"
+        android:text=" مرحباً بك "
+        android:textColor="#0f0"
+        android:textSize="60sp"
+        android:layout_margin="50sp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/continu"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="#1d37569f"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=" مواصلة اللعب "
+        android:textStyle="bold|italic"
+        android:textColor="#00f"
+        android:textSize="25sp"
+        android:layout_marginTop="70sp"/>
+    <Button
+        android:id="@+id/debut"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:background="#1d37569f"
+        android:layout_gravity="center"
+        android:text=" قائمة الإختيارات "
+        android:textStyle="bold|italic"
+        android:textSize="25sp"
+        android:textColor="#00f"
+        android:layout_margin="20sp"/>
+
+</LinearLayout>

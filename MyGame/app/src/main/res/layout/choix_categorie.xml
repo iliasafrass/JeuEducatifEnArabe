@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:background="@mipmap/jardin2_background"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acceuil_choix1"
+            android:text=" مرحباً بك "
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:textColor="#0f0"
+            android:gravity="center"
+            android:layout_margin="40sp"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/acceuil_choix2"
+            android:text=" إختر مجال اللعب "
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:textColor="#00f"
+            android:gravity="center"
+            android:layout_marginBottom="20sp"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30sp">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix1"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo1"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix2"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo2"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/btn_choix3"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo3"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix1"
+                android:text=" حيوانات "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix2"
+                android:text=" أعضاء "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/text_choix3"
+                android:text=" ألوان "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30sp">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix4"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo4"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix5"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo5"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/btn_choix6"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo6"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix4"
+                android:text=" فواكه "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix5"
+                android:text=" أثات "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/text_choix6"
+                android:text=" أشكال هندسية "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30sp">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix7"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo7"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix8"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo8"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/btn_choix9"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo9"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix7"
+                android:text=" مهن "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix8"
+                android:text=" أواني "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/text_choix9"
+                android:text=" لوازم مدرسية "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30sp">
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix10"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo10"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/btn_choix11"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo11"
+                android:layout_margin="10sp"/>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/btn_choix12"
+                android:text=""
+                android:textStyle="bold|italic"
+                android:background="@mipmap/logo12"
+                android:layout_margin="10sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix10"
+                android:text=" فصول "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.33"
+                android:id="@+id/text_choix11"
+                android:text=" وسائل النقل "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.34"
+                android:id="@+id/text_choix12"
+                android:text=" خضر "
+                android:textStyle="bold|italic"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

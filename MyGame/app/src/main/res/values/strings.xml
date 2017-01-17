@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">حروف و كلمات</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="settings"> الإعدادت </string>
+    <string name="btn1">button1</string>
+    <string name="btn2">button2</string>
+    <string name="resul"> النتيجة </string>
+    <string name="resultat">اختر الجواب الصحيح</string>
+    <string name="next">التالي</string>
+    <string name="corr">عدد الأجوبة الصحيحة  :</string>
+    <string name="fal">عدد الأجوبة الخاطئة  :</string>
+    <string name="chance">حظ موفق</string>
+    <string name="rejouer">إعادة اللعبة </string>
+    <string name="sortir"> الخروج </string>
+    <string name="moy"> المعدل :  </string>
+    <string name="son"> الصوت </string>
+    <string name="sortir_question">  هل حقاً تريد الخروج  </string>
+    <string name="yes">  نعم  </string>
+    <string name="no">  لا  </string>
+</resources>
